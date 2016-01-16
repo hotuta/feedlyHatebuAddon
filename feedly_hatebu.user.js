@@ -16,7 +16,7 @@ var setup = function() {
     (function (d, func) {
         var h = d.getElementsByTagName('head')[0];
         var s1 = d.createElement("script");
-        s1.setAttribute("src", "//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js");
+        s1.setAttribute("src", "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js");
         s1.addEventListener('load', function() {
             var s2 = d.createElement("script");
             s2.textContent = "(" + func.toString() + ")(jQuery.noConflict(true));";
